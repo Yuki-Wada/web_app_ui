@@ -1,0 +1,1 @@
+var HardSourceWebpackPlugin = require('hard-source-webpack-plugin');

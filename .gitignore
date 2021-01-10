@@ -2,3 +2,5 @@
 dist/
 public/
 node_modules/
+*.code-workspace
+CurriculumVitae.Vue

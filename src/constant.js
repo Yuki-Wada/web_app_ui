@@ -1,7 +1,9 @@
-const host = 'dashboard.heroku.com/apps/radiant-retreat-99635';
+const host = (process.env.NODE_ENV === 'production') ?
+    'dashboard.heroku.com/apps/radiant-retreat-99635' :
+    'http://localhost:8889';
 
-export default {
-    data () {
+    export default {
+    data: function () {
         return {
             host,
         }

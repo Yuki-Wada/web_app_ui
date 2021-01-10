@@ -125,24 +125,14 @@ export default {
                 link: "/"
             },
             {
-                name: "Curriculum Vitae",
-                icon: "mdi-cogs",
-                link: "/cv"
-            },
-            {
                 name: "Applications",
                 icon: "mdi-view-dashboard",
                 lists: [
                     {
-                        name: "Example",
-                        link: "/app"
+                        name: "Maze Viewer",
+                        link: "/maze_viewer"
                     }
                 ]
-            },
-            {
-                name: "Mathematics",
-                icon: "mdi-palette",
-                link: "/math"
             },
         ]
     }),

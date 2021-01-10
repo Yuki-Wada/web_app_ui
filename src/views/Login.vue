@@ -32,13 +32,13 @@
 import Axios from 'axios';
 
 export default {
-    name: 'App',
+    name: 'LoginAuthentication',
     data: () => ({
         showPassword : false,
         user_name: "",
         password: ""
     }),
-    methods :{
+    methods: {
         auth: function() {
             let api_host = 8889;
             let url = 'http://' + location.hostname + ':' + api_host + '/login';

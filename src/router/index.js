@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import CurriculumVitae from '../views/CurriculumVitae.vue'
 import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 
@@ -14,25 +13,20 @@ const routes = [
         component: Home
     },
     {
-        path: '/cv',
-        name: 'curriculum_vitae',
-        component: CurriculumVitae
-    },
-    {
         path: '/app',
         name: 'application',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/HelloWorld.vue')
     },
     {
-        path: '/math',
-        name: 'math',
+        path: '/maze_viewer',
+        name: 'maze_viewer',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/MazeViewer.vue')
     },
     {
         path: '/login',
@@ -49,7 +43,7 @@ const routes = [
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
-        routes
+    routes,
 })
 
 export default router
