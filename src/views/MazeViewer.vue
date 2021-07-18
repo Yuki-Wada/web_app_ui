@@ -64,10 +64,10 @@ export default {
         { text: 'Value Iteration', value: 'valueiter' },
       ],
 
-      // host: '127.0.0.1:8895',
+      // host: '127.0.0.1:8888',
       host: 'intense-chamber-41417.herokuapp.com',
       websocket: null,
-      
+
       warm_up_iteration: 100,
       max_iteration: 20,
       max_step: 1000,
