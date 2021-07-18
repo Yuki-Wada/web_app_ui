@@ -58,7 +58,7 @@
         </v-navigation-drawer>
 
         <v-app-bar color="primary" dark app >
-            <div class="d-flex align-center">            
+            <div class="d-flex align-center">
                 <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
                 <v-img
                     alt="Vuetify Logo"
@@ -105,7 +105,7 @@
 
         <v-footer color="primary" dark app>
             Vuetify
-        </v-footer>    
+        </v-footer>
 
     </v-app>
 </template>
@@ -130,8 +130,12 @@ export default {
                 lists: [
                     {
                         name: "Maze Viewer",
-                        link: "/maze_viewer"
-                    }
+                        link: "/maze_viewer",
+                    },
+                    {
+                        name: "Reversi Viewer",
+                        link: "/reversi_viewer"
+                    },
                 ]
             },
         ]

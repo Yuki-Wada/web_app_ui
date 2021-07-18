@@ -7,7 +7,7 @@
 # 実行
 - 開発環境
 ```
-npm run build
+npm run serve
 ```
 - ビルド
 ```

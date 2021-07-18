@@ -1,6 +1,6 @@
 const host = (process.env.NODE_ENV === 'production') ?
-    'dashboard.heroku.com/apps/radiant-retreat-99635' :
-    'http://localhost:8889';
+    'intense-chamber-41417.herokuapp.com' :
+    'localhost:8888';
 
     export default {
     data: function () {
